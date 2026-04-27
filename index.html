@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Love+Light&family=Momo+Signature&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="bigContainer">
+    <div class="container">
+      <span><img src="./calculate_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="calc"></span>
+      <h6>CIRCLE CALCULATOR</h6>
+      <h3>The <span>GEOMETRIZER</span></h3>
+      <p class="upper">Circumfrence, diameter & area from radius</p>
+      <h6>RADIUS OF CIRCLE</h6>
+      <input type="" id="radiusInput">
+      <div class="button">
+        <button onclick="calculate()">CALCULATE</button>
+        <button onclick="reset()">RESET</button>
+      </div>
+      <div id="ans">
+        <div class="box">
+          <p id="C">Circumference : </p>
+        </div>
+        <div class="box">
+          <p id="D">Diameter : </p>
+        </div>
+        <div class="box">
+          <p id="A">Area : </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

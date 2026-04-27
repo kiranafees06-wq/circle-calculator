@@ -4,9 +4,9 @@ function calculate() {
   let D = 2 * r;
   let A = 3.142 * r ** 2;
 
-  document.getElementById("C").innerHTML = "Circumference" + C.toFixed(2);
-  document.getElementById("D").innerHTML = "Diameter" + D.toFixed(2);
-  document.getElementById("A").innerHTML = "Area" + A.toFixed(2);
+  document.getElementById("C").innerHTML = "Circumference " + C.toFixed(2);
+  document.getElementById("D").innerHTML = "Diameter " + D.toFixed(2);
+  document.getElementById("A").innerHTML = "Area " + A.toFixed(2);
 
   document.getElementById("ans").style.display = "block";
 
